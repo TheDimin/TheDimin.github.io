@@ -39,5 +39,3 @@ The following is a list of languages and software I have used, orderd on what i 
 | SQL | Fmod |
 | [EnforceScript](https://community.bistudio.com/wiki/DayZ:Enforce_Script_Syntax) |  |
 | Java | |
-
-# Game Jams
