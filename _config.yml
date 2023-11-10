@@ -185,7 +185,7 @@ exclude:
   - package*.json
 
 #include:
-# - "assets/Projects"
+# - ""
 
 #jekyll-archives:
 #   enabled: [categories, tags]
