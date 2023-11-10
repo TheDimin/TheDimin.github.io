@@ -13,12 +13,20 @@ After the intial half year we got teamed up with designers and artists, to come 
 I learned a lot of this experience, and my role in the team was great importance to the project.
 I was not directly involved with gameplay code, instead My focus was on workflows & performance for the team.
 
-
-# Levels
+## Levels
 We [loaded levels from houdini](https://www.artstation.com/artwork/w0K8yL).
 One of our team members generates the levels and assigned special data tags that we can read in engine.
 This allows Houdini to be used as level editor (Or any gltf file at the end of the day).
 The engine gains information about everything it loads into the level from this.
 Some of the things artists have full control over: `Player/Enemy spawn`, `Objects with collision`, `SpikeTraps`, `Checkpoints`,`Lights`.
 
-Once we got artists on the team and they started to intergrate their assets into the engine we saw our loading times becoming 10+ seconds one of the things I worked on was Improve this (to 1.5 second), by profiling I discovered duplicate loading of textues and instances of the Gltf object being passed by value. 
+### performance improvements
+Once we got artists on the team and they started to intergrate their assets into the engine we saw our loading times becoming 10+ seconds one of the things I worked on was Improve this (to 1.5 second), by profiling I discovered duplicate loading of textues and instances of the Gltf object being passed by value.
+
+## Cross Platform
+As we build this engine to work on pc and ps5 I came up with a way to deal with cross platform code. A lot of funcitons can be defined in a cross platform header and then be linked with platform specific .cpp files. 
+Every platform is its own SubProject in the visual studio solution, giving us an easy way to write and maintain code in a platform independed way.
+
+## Editor
+I created a imgui Window that shows all entt entities and components with the use of code reflection.
+This system has been opensourced and can be found [here](https://github.com/TheDimin/EnttEditor)
