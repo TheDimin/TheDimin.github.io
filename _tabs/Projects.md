@@ -1,9 +1,10 @@
 ---
 icon: fas fa-stream
+layout: page
 classes: wide
 order: 0
 ---
-# Project Ball (2024)
+<!---# Project Ball (2024)
 Something:
 - path-tracing
 - Insipired by Super monkey ball
@@ -11,6 +12,7 @@ Something:
 - User created levels!
 
 To be announced......
+-->
 
 <!---# Sbox Splatoon (2023)
 
@@ -33,11 +35,14 @@ I have been responsible for the engine architecture since the start of the proje
 and such I have worked on most engine systems to some degree.
 
 The game has been made for PC and PS5.
-And I am actively working on porting the game to the switch!
 
-[Link to game download](https://buas.itch.io/hellbound)<br>
-**Console ports will not be released! They are made for the learning opportunity**
+I am working on a `switch` port to learn about optimizing for target hardware !
+For this I am responsible for everything, graphics and engine included.
 
+**Console ports are not be released! created only for the learning opportunity**<br>
+[Link to itch page](https://buas.itch.io/hellbound)
+<br><br> 
+<hr>
 # Subratica (2022)
 
 <div style="float: left; margin-right: 10px;">
@@ -51,9 +56,10 @@ Some of my tasks:<br>
  <li>Improve rope system for attachments. (Create tooling for rope attachment, for designers)</li>
  <li>Improve the push and pull system. (Fixing various bugs with collision)</li>
 
-
-[Link to game download](https://buas.itch.io/2122-y1d-team-7)
-
+<br>
+[Link to itch page](https://buas.itch.io/2122-y1d-team-7)
+<br><br> 
+<hr>
 # fractured-sunrise (GGJ 2020)
 
 <div style="float: right; margin-left: 10px;">
@@ -65,8 +71,10 @@ Some of the things I worked on which you can see in the trailer are:<br>
 - Camera and player controller
 - Dialog system
 
-<br> [Link to game download](https://gerbenpasjes.itch.io/fractured-sunrise-demo)
-
+<br> [Link to itch page](https://gerbenpasjes.itch.io/fractured-sunrise-demo) <br>
+[Link to github source](https://github.com/PinkRodeo/GGJ2020)
+<br><br> 
+<hr>
 # Rift Drifters (GGJ 2019)
 
 <div style="float: left; margin-right: 10px;">
@@ -78,8 +86,11 @@ This year I went to GGJ in Utrecht.<br> I got teamed up with people I never met 
 Some of the things I worked on which you can see in the trailer are:<br>
  <li>Dialog system</li>
  <li>Audio integration with fmod (banks created by other team member)</li>
-<br>
-[Link to game download](https://github.com/PinkRodeo/GGJ2019)
+
+[Link to download (Global game jam page)](https://v3.globalgamejam.org/2019/games/rift-drifters)<br>
+[Link to github source](https://github.com/PinkRodeo/GGJ2019)
+<br><br> 
+<hr>
 
 # Project Life (2017)
 
