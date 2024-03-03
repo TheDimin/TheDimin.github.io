@@ -304,5 +304,5 @@ We can even draw arrays of structs without the user having to do anything specia
 I even integrated LUA using the same concepts. I am not ready to talk about that one yet. But hopefully one day.
 
 <br><br>
-Time to back to coding.
-- Damian
+Time to code,
+<h5> Damian</h5>
